@@ -75,38 +75,74 @@ class AlfaPokedex{
                         case 1:
                         mon = (int)Math.floor(Math.random()*(1-2)+2);
                         
-                        if(mon ==1){
-                            System.out.println("El Pokemon contra el que va a luchar es Bulbasaur");
-
-                        }
-                        if (mon == 2){
-                            System.out.println("El Pokemon contra el que va a luchar es Squirtle");
-
+                            if(mon ==1){
+                                System.out.println("El Pokemon contra el que va a luchar es Bulbasaur");
+                                System.out.println("Estos son los atributos de Charmander:");
+                                System.out.println("Vida: 50");
+                                System.out.println("ID: 100 ");
+                                System.out.println("Defensa: 80");
+                                System.out.println("1. Ataque Principal: Furia de Dragon");
+                                System.out.println("2. Ataque Secundario: Gruñido");
+                                System.out.println("Elige con que vas a atacar");
+                            }
+                            if (mon == 2){
+                                System.out.println("El Pokemon contra el que va a luchar es Squirtle");
+                                System.out.println("Estos son los atributos de Charmander:");
+                                System.out.println("Vida: 50");
+                                System.out.println("ID: 100 ");
+                                System.out.println("Defensa: 80");
+                                System.out.println("1. Ataque Principal: Furia de Dragon");
+                                System.out.println("2. Ataque Secundario: Gruñido");
+                                System.out.println("Elige con que vas a atacar");
                         }
                         break;
                         case 2:
                         mon = (int)Math.floor(Math.random()*(1-2)+2);
                         
-                        if(mon ==1){
-                            System.out.println("El Pokemon contra el que va a luchar es Charmander");
-
-                        }
-                        if (mon == 2){
-                            System.out.println("El Pokemon contra el que va a luchar es Squirtle");
-
-                        }
+                            if(mon ==1){
+                                System.out.println("El Pokemon contra el que va a luchar es Charmander");
+                                System.out.println("Estos son los atributos de bulbasaur:");
+                                System.out.println("Vida: 70");
+                                System.out.println("ID: 200 ");
+                                System.out.println("Defensa: 50");
+                                System.out.println("1. Ataque Principal: Gruñido");
+                                System.out.println("2. Ataque Secundario: Latigo");
+                                System.out.println("Elige con que vas a atacar");
+                            }
+                            if (mon == 2){
+                                System.out.println("El Pokemon contra el que va a luchar es Squirtle");
+                                System.out.println("Estos son los atributos de bulbasaur:");
+                                System.out.println("Vida: 70");
+                                System.out.println("ID: 200 ");
+                                System.out.println("Defensa: 50");
+                                System.out.println("1. Ataque Principal: Gruñido");
+                                System.out.println("2. Ataque Secundario: Latigo");
+                                System.out.println("Elige con que vas a atacar");
+                            }
                         break;
                         case 3:
                         mon = (int)Math.floor(Math.random()*(1-2)+2);
                         
-                        if(mon ==1){
-                            System.out.println("El Pokemon contra el que va a luchar es Charmander");
-
-                        }
-                        if (mon == 2){
-                            System.out.println("El Pokemon contra el que va a luchar es Bulbasaur");
-
-                        }
+                            if(mon ==1){
+                                System.out.println("El Pokemon contra el que va a luchar es Charmander");
+                                System.out.println("Estos son los atributos de Squirtle:");
+                                System.out.println("Vida: 60");
+                                System.out.println("ID: 300 ");
+                                System.out.println("Defensa: 60");
+                                System.out.println("1. Ataque Principal: Pistola de agua ");
+                                System.out.println("2. Ataque Secundario: Mordisco ");
+                                System.out.println("Elige con que vas a atacar");
+                            }
+                            if (mon == 2){
+                                System.out.println("El Pokemon contra el que va a luchar es Bulbasaur");
+                                System.out.println("Estos son los atributos de Squirtle:");
+                                System.out.println("Vida: 60");
+                                System.out.println("ID: 300 ");
+                                System.out.println("Defensa: 60");
+                                System.out.println("1. Ataque Principal: Pistola de agua ");
+                                System.out.println("2. Ataque Secundario: Mordisco ");
+                                System.out.println("Elige con que vas a atacar");
+                            }
                         break;
                     }
 
